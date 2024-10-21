@@ -29,7 +29,7 @@
     },
     methods: {
       handleLogin() {
-        if (this.username === 'user' && this.password === 'password') {
+        if (this.username === 'Alar' && this.password === '123') {
           this.$router.push('/game');
         } else {
           this.errorMessage = 'Invalid username or password';
